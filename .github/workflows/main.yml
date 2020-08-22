@@ -13,5 +13,5 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.4.6
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "youtube-party" #Must be unique in Heroku
+          heroku_app_name: "youtube-party-v1" #Must be unique in Heroku
           heroku_email: "shivamxav@gmail.com"
